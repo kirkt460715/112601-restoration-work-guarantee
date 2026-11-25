@@ -17,7 +17,8 @@
     "sitework": {
       "covers": [
         "slope-top",
-        "slope-base"
+        "slope-base",
+        "lane-islet"
       ],
       "guarantee": 52000
     },
