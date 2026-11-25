@@ -1,0 +1,52 @@
+{
+  "segments": {
+    "slope-top": [
+      0,
+      60
+    ],
+    "slope-base": [
+      50,
+      120
+    ],
+    "lane-islet": [
+      140,
+      180
+    ]
+  },
+  "contracts": {
+    "sitework": {
+      "covers": [
+        "slope-top",
+        "slope-base"
+      ],
+      "guarantee": 52000
+    },
+    "care": {
+      "covers": [
+        "slope-base",
+        "lane-islet"
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "takeover": "slope-base",
+      "prerequisite": "slope-top",
+      "phase": "stable"
+    },
+    {
+      "takeover": "lane-islet",
+      "prerequisite": null
+    }
+  ],
+  "previous_releases": [
+    {
+      "id": "release-1",
+      "covered": [
+        140,
+        180
+      ],
+      "cents": 12000
+    }
+  ]
+}

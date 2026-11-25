@@ -1,0 +1,22 @@
+[
+  {
+    "action": "read-release",
+    "desk": "guarantee-provider",
+    "fact": {
+      "id": "release-1",
+      "state": "released",
+      "cents": 12000
+    },
+    "unavailable_first": true
+  },
+  {
+    "action": "read-field",
+    "desk": "maintenance-desk",
+    "fact": {
+      "segment": "lane-islet",
+      "takeover": "signed-27",
+      "at": 24
+    },
+    "unavailable_first": false
+  }
+]

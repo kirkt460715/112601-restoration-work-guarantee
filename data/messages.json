@@ -1,0 +1,54 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 16,
+    "source": "supervisor",
+    "facts": {
+      "phase": "stable",
+      "segment": "slope-top",
+      "seen": [
+        0,
+        57
+      ],
+      "decision": "conditional"
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 24,
+    "source": "maintenance",
+    "facts": {
+      "segment": "lane-islet",
+      "took_over": true
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 32,
+    "source": "supervisor",
+    "facts": {
+      "correction": "slope-base",
+      "old": [
+        50,
+        120
+      ],
+      "new": [
+        57,
+        118
+      ]
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 43,
+    "source": "construction",
+    "facts": {
+      "segment": "slope-top",
+      "repair": [
+        51,
+        60
+      ],
+      "reason": "inspection_failed"
+    }
+  }
+]
